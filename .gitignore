@@ -1,0 +1,73 @@
+# --------------------------
+# 🌱 Environment variables
+# --------------------------
+.env
+.env.*
+!.env.example  # Allow example env files for reference
+
+# --------------------------
+# 📦 Node & React dependencies
+# --------------------------
+node_modules/
+**/node_modules/
+
+# --------------------------
+# ⚡ Build outputs
+# --------------------------
+dist/
+build/
+**/dist/
+**/build/
+
+# --------------------------
+# 📊 Logs
+# --------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# --------------------------
+# 🗂 System / IDE files
+# --------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/settings.json  # Allow workspace settings
+.history/
+
+# --------------------------
+# ⚙️ Cache / Temp
+# --------------------------
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.temp/
+coverage/
+.nyc_output/
+.rpt2_cache/
+.rts2_cache_*/
+
+# --------------------------
+# 📦 Package manager files
+# --------------------------
+.pnpm-debug.log*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# --------------------------
+# 🗃 Misc
+# --------------------------
+*.tsbuildinfo
+*.tgz
+*.sublime*
+*.vsix
+.idea/
+bower_components/
+lib-cov/
